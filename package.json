@@ -1,0 +1,46 @@
+{
+  "name": "veroet",
+  "version": "1.0.0",
+  "type": "module",
+  "workspaces": [
+    "chains/ethereum",
+    "packages/core",
+    "packages/ui",
+    "packages/react",
+    "packages/html",
+    "laboratory"
+  ],
+  "devDependencies": {
+    "@types/node": "20.4.5",
+    "@typescript-eslint/eslint-plugin": "6.2.0",
+    "@typescript-eslint/parser": "6.2.0",
+    "@rollup/plugin-replace": "5.0.2",
+    "@rollup/plugin-commonjs": "25.0.3",
+    "@rollup/plugin-node-resolve": "15.1.0",
+    "@rollup/plugin-json": "6.0.0",
+    "rollup-plugin-polyfill-node": "0.12.0",
+    "@types/react": "18.2.16",
+    "@types/react-dom": "18.2.7",
+    "esbuild": "0.17.9",
+    "eslint": "8.45.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-react": "7.33.0",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "lerna": "7.1.4",
+    "prettier": "3.0.0",
+    "rollup": "3.26.3",
+    "rollup-plugin-esbuild": "5.0.0",
+    "rollup-plugin-minify-html-literals": "1.2.6",
+    "rollup-plugin-lit-css": "4.0.1",
+    "typescript": "5.1.6"
+  },
+  "author": "ColleenLedner",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeolaGoodwin/veroet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LeolaGoodwin/veroet.git/issues"
+  },
+  "homepage": "https://github.com/LeolaGoodwin/veroet.git"
+}
